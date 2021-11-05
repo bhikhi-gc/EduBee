@@ -1,0 +1,496 @@
+/************************
+    - Media queries -
+************************/
+@media (min-width:1199px){
+	.intro .caption{
+		text-align: right;
+	}
+}
+/* Medium Devices, Desktops */
+@media (min-width:992px) and (max-width:1199px) {
+	.section-title h6, h6{
+		margin-top: 10px !important;
+	}
+	.container-custom{
+		padding: 60px 80px 60px;
+	}
+	.hidden-m{
+		display: none !important;
+	}
+	/**Video Carousal**/
+	#videos{
+		padding:0 20px;
+	}
+	#videos .video-frame{
+		padding: 0px;}
+
+	.testi-member{
+		padding: 0px;
+	}	
+	/* Video */
+	section.video .video-responsive {
+		-webkit-transform:scale(1.2);
+		   -moz-transform:scale(1.2);
+				transform:scale(1.2);
+	}
+	
+	/* Subscribe for newsletter */
+	.sidebar .newsletter-form input[type="email"],  
+	input[type="text"] {
+		width:150px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	#intro{
+		padding-top: 105%;
+	}
+	#intro {
+    background-image: url("../../images/main-banner-ipad.png");
+    background-color: #781d7d;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 123vh;}
+	/* Navigation */
+	.navbar {
+		padding:15px 0;
+	}
+	
+	.navbar.floating {
+		padding-top:25px;
+		padding-bottom:20px;
+	}
+	
+	.navbar .navbar-icon {
+		display:none !important;
+	}
+	#testimonials .col-sm-12, #weFocusOn .col-sm-12 {
+    width: 33.33%;}
+	.section-title h6, h6{
+		margin-top: 10px !important;
+	}
+	.container-custom{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	/* Margin */
+	.res-margin {
+		margin-bottom: 0px;
+    	margin-top: 40px;
+	}
+	/**Video Carousal**/
+	#videos{
+		padding:0 20px;
+	}
+
+	#videos .video-frame {
+   		height: 16rem;
+   	}
+   	#videos .video-frame button {
+    	top: 40px;}
+    #videos .video-frame h6 {
+	    top: 25px;
+		padding: 0px 30px;}
+	#aboutUs .col-sm-12, #faq .col-sm-12, #contactUs .col-sm-12 {
+    width: 50%;}
+	#aboutUs {
+	    background-image: url("../../images/aboutUs-banner.jpg");
+	    background-size: 110%;
+	    padding-top: 150px;
+	    background-repeat: no-repeat;
+		background-color: #ffd102;
+	}
+	#aboutUs .container-custom{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	#eduBeeProvides .container-custom {
+	    padding-bottom: 160px;
+	}
+	#catalogue .catalogue-tabs{
+    	margin-top: 50px;
+    }	
+	
+	/* Video */
+	section.video .video-responsive {
+		-webkit-transform:scale(1.4);
+		   -moz-transform:scale(1.4);
+				transform:scale(1.4);
+	}
+
+	.hidden-m{
+		display: none !important;
+	}
+	/* Margin */
+	.res-margin {
+		margin-bottom: 0px;
+    	margin-top: 40px;
+	}
+	.testi-member{
+		padding: 0px;
+	}
+	/**Video Carousal**/
+	#videos{
+		padding:0 20px;
+	}
+	#videos .video-frame {
+   		height: 16rem;
+   	}
+   	#videos .video-frame button {
+    	top: 40px;}
+    #videos .video-frame h6 {
+	    top: 25px;
+		padding: 0px 30px;}
+	#startLearning img{
+		padding: 0px 20px 0px;
+	}
+	/* Info box */
+	.info-box {
+		padding-top:35px;
+		padding-bottom:35px;
+	}
+	
+	/* Pricing tables */
+	.pricing-tables .plan {
+		margin-left:0;
+		margin-right:0;
+	}
+
+	/* Subscribe for newsletter */
+	.sidebar .newsletter-form input[type="email"],  
+	input[type="text"] {
+		width:100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (max-width:767px) {
+	.hidden-m-l{
+		display: block !important;
+	}
+	body,.section-title p, p, a, .btn{
+		font-size: 15px;
+	}
+	.section-title p{
+		margin-bottom: 50px;
+	}
+	.intro .caption h1, .section-title h1, h1{
+		font-size: 36px;
+	}
+	.section-title h2, h2{
+		font-size: 34px;
+		margin-bottom: 30px !important;
+	}
+	.section-title h3, h3{
+		font-size: 26px;
+		margin-bottom: 20px !important;
+	}
+	.section-title h4, h4{
+		font-size: 18px;
+	}
+	.section-title h5, h5{
+		font-size: 18px;
+	}
+	.section-title h6, h6{
+		font-size: 18px;
+		margin-top: 10px !important;
+	}
+
+	.container-custom {
+	    padding: 80px 25px;
+	}
+	.intro{
+		padding-top: 40%;
+	}
+	.navbar-collapse.collapse{
+		height: auto !important;
+	}
+	.navbar-nav{
+		height: auto !important;
+		display: block;
+		align-items: left;
+	}
+
+	/* Margin */
+	.res-margin {
+		margin-bottom: 0px;
+    	margin-top: 30px;
+	}
+	
+	/* Text center */
+	.text-center-xs,  
+	.text-center-xs > .pull-right {
+		float:none !important;
+		text-align:center;
+	}
+
+
+	/* Navigation */
+	.navbar {
+		padding:10px 0;
+	}
+	.nav > li{
+		padding: 5px;
+	}
+	.navbar .navbar-nav > li > a {
+		line-height:inherit !important;
+	}
+	
+	.navbar.floating {
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	.navbar .navbar-icon {
+		display:none !important;
+	}
+	.intro-nav {
+        display:none;
+    }
+	
+	/* Arrows */
+	.arrows {
+		margin-top:15px;
+	}
+	
+	/* Buttons */
+	.btn {
+		padding:6px 15px;
+	}
+	
+	.btn.btn-inverse {
+		padding:10px 18px;
+	}
+	#intro{
+		padding-top: 105%;
+	}
+	#intro {
+    background-image: url("../../images/main-banner-ipad.png");
+    background-color: #781d7d;
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 115vh;}
+
+	/**Video Carousal**/
+	#videos{
+		padding:0 20px;
+	}
+	.videos-slider{
+		margin-bottom: -120px;
+	}
+
+	#videos .video-frame{
+		height: 22rem;}
+
+	#videos .video-frame button {
+    top: 80px;}
+    #videos .video-frame h6 {
+    top: 90px;}
+	/**About Us*/
+	#aboutUs {
+	    background-image: url("../../images/aboutUs-banner-mobile.png");
+	    background-size: cover;
+	    padding-top: 350px;
+	    background-repeat: no-repeat;
+		background-color: #ffd102;
+	}
+
+	#aboutUs .container-custom {
+	    padding: 0px 20px;
+	}	
+
+	/**Start Learning*/
+	#startLearning .container-custom .row{
+		display: block !important;
+	}
+	#startLearning{
+		text-align: center;
+	}
+	#startLearning img{
+		padding: 0px 20px 40px;
+	}
+
+	/**EduBee Provides**/
+	#eduBeeProvides .container-custom {
+	    padding-bottom: 150px;
+	}
+
+	#eduBeeProvides .eduBeeFeatures .row {
+	    margin-bottom: 0px;
+	}
+	#eduBeeProvides .eduBeeFeatures img{
+		padding: 20px 20px 30px;
+	}
+	#eduBeeProvides .eduBeeFeatures .row:nth-child(2n+1){
+		flex-flow: column;}
+
+	#eduBeeProvides .eduBeeFeatures .row:nth-child(2n){
+		flex-flow: column-reverse;}
+
+	/**Testimonials**/
+	#testimonials .row {
+	    margin-top: -180px;
+	}
+	#testimonials img{
+		padding: 0px 40px !important;
+	}
+	.testi-member{
+		padding: 0px;
+	}
+	.testi-member .testi-details h4 {
+    	margin: 0px auto 20px;}
+
+    #catalogue .catalogue-tabs{
+    	margin-top: 50px;
+    }	
+	/* Info box */
+	.info-box {
+		padding-top:20px;
+		padding-bottom:20px;
+	}
+	
+	.info-box input[type="email"] {
+		font-size:18px;
+	}
+    
+    /* Testimonials */
+    .testimonial-carousel .carousel-text .single-box {
+	  	width:100%;
+	}
+
+	/* Contact information and form */
+	.contact-form .field {
+		width:100%;
+		margin-bottom:15px !important;
+	}
+	
+	.contact-form h5 {
+		margin-top:30px;
+	}
+
+	/* Images Slider */
+	.image-slider .arrows.large .arrow.left {
+		left:-20px;
+	}
+	
+	.image-slider .arrows.large .arrow.right {
+		right:-20px;
+	}
+	
+	/* Post */
+	.blog-title {
+		padding:0;	
+	}
+	
+	.post-author {
+		top:0;
+	}
+	
+	.post-author .description {
+		width:100%;
+	}
+	
+	.nav-links:before,
+	.post-navigation-wrapper .divider:before {
+		display:none;	
+	}
+	
+	.nav-links span {
+		margin-bottom:5px;
+	}
+	
+	.nav-links .nav-previous {
+		margin-bottom:40px;
+	}
+	
+	.nav-links .nav-previous,
+	.nav-links .nav-next {
+		float:none;
+		clear:both;
+		width:100%;
+		text-align:center;
+	}
+	
+	/* Post footer */
+	.share-panel {
+		display:none;
+	}
+	
+	.post-footer.single-post-footer .tags,
+	.post-footer.single-post-footer .post-counters {
+		clear:both;
+		float:none;
+	}
+	
+	.post-meta > li {
+		clear:both;
+		float:none;
+		width:100%;
+	}
+	
+	/* Comments */
+	.user-comment {
+		margin-bottom:25px;
+	}
+	
+	.user-comment .image {
+		width:60px;
+	}
+	
+	.user-comment .details {
+		margin-left:90px;
+	}
+	
+	.user-comment .details .info .author {
+		width:100%;
+	}
+	
+	.user-comment .details .info .date {
+		float:left;
+	}
+	
+	.user-comment .user-comment {
+		margin-top:25px;
+	}
+    
+    /* Footer */
+	.footer .recent-post {
+		width:100%;
+	}
+	
+	.footer-social {
+		margin-top:20px;
+	}
+	
+	footer .copyright {
+		text-align:center;
+	}
+	footer .footer-copyright .footer-copyright-inner {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	    font-size: 12px;}
+	/* Google maps */
+	.map #google-map {
+		height:250px;
+	}
+	
+	/* Counters */
+	.counter-content {
+		border:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
