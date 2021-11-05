@@ -543,10 +543,13 @@ section.video .video-container {
 	position:absolute;
     z-index:100;
 	width:100%;
-	background:#781d7d;
-	margin-top:15px;
-	overflow:hidden;
-	padding: 10px 0px;
+	background: #fff;
+	margin-top: 15px;
+	overflow: hidden;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 1px 5px 20px -15px;
+	text-align: center;
 }
 
 .navbar .navbar-toggle {
