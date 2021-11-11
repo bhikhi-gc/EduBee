@@ -1125,7 +1125,7 @@ section.video .video-container {
 }
 
 .modal-dialog {
-    width: 50% !important;
+    width: 60% !important;
 }
 
 .modal-body {
@@ -2113,7 +2113,7 @@ section.bg-dark .counter {
 	line-height: 1.6;
 }
 #catalogue .catalogue-tabs div{
-  padding: 12px !important;
+  padding: 12px;
     position: relative;
     margin: auto;
     overflow: hidden !important;

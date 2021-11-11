@@ -27,6 +27,9 @@
 	.testi-member{
 		padding: 0px;
 	}	
+	.modal-dialog {
+    width: 80% !important;
+	}
 	/* Video */
 	section.video .video-responsive {
 		-webkit-transform:scale(1.2);
@@ -68,6 +71,9 @@
 	}
 	#testimonials .col-sm-12, #weFocusOn .col-sm-12 {
     width: 33.33%;}
+    .modal-dialog {
+    	width: 80% !important;
+	}
 	.section-title h6, h6{
 		margin-top: 10px !important;
 	}
@@ -264,7 +270,7 @@
 		padding:10px 18px;
 	}
 	#intro{
-		padding-top: 95%;
+		padding-top: 80%;
 	}
 	#intro {
     background-image: url("../../images/main-banner-ipad.jpg");
@@ -293,6 +299,7 @@
 
     .modal-dialog {
     width: 100% !important;
+    margin: 0px;
 	}
 	.close {
   		font-size:2rem;
