@@ -504,13 +504,15 @@ section.video .video-container {
 	background:#fff;
 	color: #781d7d;
 }
-
+.navbar .navbar-nav .btn-subscribe:hover a{
+	background-color: #fff !important;
+}
 .navbar .navbar-nav > li > a {
 	font-size:16px;
 	font-weight:600;
 	padding:4px 15px;
 	background-color:transparent;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: 0 10px;	
 }
 
@@ -1123,7 +1125,7 @@ section.video .video-container {
 }
 
 .modal-dialog {
-    width: 80% !important;
+    width: 50% !important;
 }
 
 .modal-body {
@@ -1201,7 +1203,7 @@ section.video .video-container {
     - 11. Buttons -
 **********************/
 .btn {
-	border-radius:5px;
+	border-radius:10px;
 	padding:6px 17px;
 	line-height:25px;
 	font-family:"bree", sans-serif;
@@ -1209,9 +1211,9 @@ section.video .video-container {
 	font-weight:600;
 	letter-spacing:1px;
 	border-width:0;	
-	-webkit-transition:all 0.3s;
-	   -moz-transition:all 0.3s;
-			transition:all 0.3s;
+	-webkit-transition:all 0.5s;
+	   -moz-transition:all 0.5s;
+			transition:all 0.5s;
 }
 
 #intro .btn{
@@ -1235,8 +1237,30 @@ section.video .video-container {
 .btn.btn-link {
 	text-decoration:none !important;
 }
-.btn-animate:hover{
-	transform: scale(0.95);
+.btn-animate span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-animate span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -4px;
+  right: -20px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.btn-animate:hover span {
+  padding-right: 25px;
+}
+
+.btn-animate:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 /* Small button */
 .btn.btn-small {
@@ -1530,7 +1554,7 @@ iframe {
 
 .testi-member .testi-image img {
     width:100%;	
-    -webkit-filter: drop-shadow\(0px 5px 10px #888291ad;
+    -webkit-filter: drop-shadow(0px 5px 10px #ccc);
 	filter: drop-shadow(0px 5px 10px #ccc);
 	-webkit-transition:all 0.3s;
 	   -moz-transition:all 0.3s;
@@ -2089,11 +2113,27 @@ section.bg-dark .counter {
 	line-height: 1.6;
 }
 #catalogue .catalogue-tabs div{
-  padding: 0px !important;
+  padding: 12px !important;
+    position: relative;
+    margin: auto;
+    overflow: hidden !important;
 }
 #catalogue .catalogue-tabs div img{
-  margin: -15px
+  filter: drop-shadow(2px 5px 7px #ccc);
+  -webkit-filter: drop-shadow(2px 5px 7px #ccc);
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
 }
+
+#catalogue .catalogue-tabs div:hover img {
+    transform: scale(1.1);
+    filter: none;
+}
+
 #catalogue .catalogue-tabs div p{	
   position: absolute;
   top: 50%;

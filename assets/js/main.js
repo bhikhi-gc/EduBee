@@ -1532,9 +1532,6 @@ $('#myModal').on('shown.bs.modal', function (e) {
 $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
 })
 
-$(".video-btn").click( function(e) {
-    e.preventDefault();
-}); 
 // document ready  
 });
 
