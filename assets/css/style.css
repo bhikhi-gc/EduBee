@@ -2119,8 +2119,8 @@ section.bg-dark .counter {
     overflow: hidden !important;
 }
 #catalogue .catalogue-tabs div img{
-  filter: drop-shadow(2px 5px 7px #ccc);
-  -webkit-filter: drop-shadow(2px 5px 7px #ccc);
+  filter: drop-shadow(1px 3px 3px #ccc);
+  -webkit-filter: drop-shadow(1px 3px 3px #ccc);
     max-width: 100%;
     transition: all 0.3s;
     display: block;
