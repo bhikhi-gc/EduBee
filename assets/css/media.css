@@ -273,7 +273,7 @@
     background-attachment: scroll;
     background-repeat: no-repeat;
     width: 100%;
-    height: 125vh;}
+    height: 140vh;}
 
 	/**Video Carousal**/
 	#videos{
@@ -290,6 +290,13 @@
     top: 80px;}
     #videos .video-frame h6 {
     top: 90px;}
+
+    .modal-dialog {
+    width: 100% !important;
+	}
+	.close {
+  		font-size:2rem;
+  	}
 	/**About Us*/
 	#aboutUs {
 	    background-image: url("../../images/aboutUs-banner-mobile.png");
