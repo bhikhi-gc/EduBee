@@ -58,7 +58,6 @@ font-display:auto;font-style:normal;font-weight:400;
 html {
 	width:100%;
 	height:100%;
-	overflow-x:hidden;
 }
 
 body {
@@ -71,6 +70,7 @@ body {
 	letter-spacing: 0.5px;
 	background:#fff;
 	-webkit-font-smoothing:antialiased;
+	overflow-x:hidden;
 }
 
 h1, .h1, 
