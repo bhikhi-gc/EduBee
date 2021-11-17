@@ -1542,7 +1542,7 @@ function myfunction() {
     if ( $(window).width() > 1100) {
     	 $(window).scroll(function(){
     	 	var scrollTop = $(window).scrollTop();
-    	 	console.log(scrollTop);
+    	 	//console.log(scrollTop);
     	 	$('#intro').css("background-size" , 100 + +scrollTop/100 + "%");
     	 });
      }
