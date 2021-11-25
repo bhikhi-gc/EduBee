@@ -1143,6 +1143,25 @@ section.video .video-container {
   opacity:1;
 }
 
+#videos .owl-prev {
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+}
+
+#videos .owl-next {
+    position: absolute;
+    top: 40%;
+    right: -20px;
+    display: block !important;
+}
+
+#videos .owl-prev i, #videos .owl-next i{
+	transform: scale(1.5);
+	color: #781d7d;
+}
+
 /**********************
     - 10. Clients -
 **********************/
